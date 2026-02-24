@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f57e46;
+  margin: 0;
+  padding: 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: bisque;
+  border-radius: 35px;
+}
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.fotos img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.ton {
+  background-color: #ffdbcb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
